@@ -15,16 +15,5 @@ func main() {
 	}
 	defer client.Close()
 
-	printBlockNumber(client)
-	getBalance(client)
-}
-
-func printBlockNumber(client *ethclient.Client) {
-	// Etape 1 : Ajoutez votre code ici
-	return
-}
-
-func getBalance(client *ethclient.Client) {
-	// Etape 2 : Ajoutez votre code ici
-	return
+	// Ajoutez votre code ici
 }
